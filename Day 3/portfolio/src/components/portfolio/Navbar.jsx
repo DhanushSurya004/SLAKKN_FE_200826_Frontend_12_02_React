@@ -1,5 +1,6 @@
 const Navbar = () => {
   return (
+    <>
     <nav className="portfolio-nav">
       <a className="brand" href="#home">
         <span className="brand-mark">D</span>
@@ -16,6 +17,7 @@ const Navbar = () => {
         <i /> Open to opportunities
       </span>
     </nav>
+    </>
   );
 };
 

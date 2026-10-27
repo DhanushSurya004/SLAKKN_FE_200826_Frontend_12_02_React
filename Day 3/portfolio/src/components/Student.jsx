@@ -2,6 +2,7 @@ import portrait from "../assets/ds1.jpg";
 
 const Student = () => {
   return (
+    <>
     <div className="stdcard">
       <img className="student-photo" src={portrait} alt="Dhanush Surya" />
       <div className="student-details">
@@ -12,6 +13,7 @@ const Student = () => {
         <p>Aspiring software developer</p>
       </div>
     </div>
+    </>
   );
 };
 

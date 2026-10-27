@@ -1,5 +1,6 @@
 const Header = () => {
   return (
+    <>
     <header className="store-header">
       <a href="#top" className="store-brand">
         <span className="store-icon">◈</span> TechStore
@@ -13,6 +14,7 @@ const Header = () => {
         ↗
       </a>
     </header>
+    </>
   );
 };
 

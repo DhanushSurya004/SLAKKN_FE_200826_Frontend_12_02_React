@@ -1,5 +1,6 @@
 const Sidebar = () => {
   return (
+    <>
     <aside className="sidebar">
       <a className="dash-brand" href="#home">
         <span className="dash-logo">◫</span>
@@ -33,6 +34,7 @@ const Sidebar = () => {
         </a>
       </div>
     </aside>
+    </>
   );
 };
 

@@ -7,6 +7,7 @@ import "./App.css";
 
 const App = () => {
   return (
+    <>
     <main className="store">
       <div className="store-top">
         <span>TECHSTORE / EVERYDAY INNOVATION</span>
@@ -18,6 +19,7 @@ const App = () => {
       <Student />
       <Footer />
     </main>
+    </>
   );
 };
 

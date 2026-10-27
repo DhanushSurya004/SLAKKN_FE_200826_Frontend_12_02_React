@@ -1,5 +1,6 @@
 const Student = () => {
   return (
+    <>
     <div className="stdcard">
       <div className="student-initials">DS</div>
       <div className="student-details">
@@ -10,6 +11,7 @@ const Student = () => {
         <p>Aspiring software developer</p>
       </div>
     </div>
+    </>
   );
 };
 

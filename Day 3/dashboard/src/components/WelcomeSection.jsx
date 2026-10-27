@@ -1,5 +1,6 @@
 const WelcomeSection = () => {
   return (
+    <>
     <section className="welcome-card" id="home">
       <div className="welcome-text">
         <span className="welcome-kicker">
@@ -34,6 +35,7 @@ const WelcomeSection = () => {
         <span className="graphic-star star-two">✧</span>
       </div>
     </section>
+    </>
   );
 };
 

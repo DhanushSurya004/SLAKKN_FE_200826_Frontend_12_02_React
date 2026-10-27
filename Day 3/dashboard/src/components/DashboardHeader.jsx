@@ -1,5 +1,6 @@
 const DashboardHeader = () => {
   return (
+    <>
     <header className="dash-header">
       <div>
         <span className="dash-crumb">
@@ -14,6 +15,7 @@ const DashboardHeader = () => {
         <div className="header-avatar">DS</div>
       </div>
     </header>
+    </>
   );
 };
 

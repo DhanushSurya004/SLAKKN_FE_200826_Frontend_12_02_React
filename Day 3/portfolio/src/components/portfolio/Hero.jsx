@@ -2,6 +2,7 @@ import Student from "../Student.jsx";
 
 const Hero = () => {
   return (
+    <>
     <section className="portfolio-hero" id="home">
       <div className="hero-copy">
         <div className="eyebrow">
@@ -33,6 +34,7 @@ const Hero = () => {
         <span className="float-label label-year">2026</span>
       </div>
     </section>
+    </>
   );
 };
 

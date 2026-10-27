@@ -1,5 +1,6 @@
 const ProductHero = () => {
   return (
+    <>
     <section className="product-hero" id="top">
       <div className="product-copy">
         <div className="product-badge">
@@ -40,6 +41,7 @@ const ProductHero = () => {
         <span className="scene-number">01</span>
       </div>
     </section>
+    </>
   );
 };
 

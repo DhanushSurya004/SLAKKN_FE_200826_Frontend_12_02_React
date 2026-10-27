@@ -5,11 +5,13 @@ import "./App.css";
 
 const App = () => {
   return (
+    <>
     <main className="portfolio-page">
       <Navbar />
       <Hero />
       <Footer />
     </main>
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
 const ProductInfo = () => {
   return (
+    <>
     <article className="product-info" id="product-card">
       <div className="product-thumb">
         <span>✳</span>
@@ -26,6 +27,7 @@ const ProductInfo = () => {
         ↗
       </a>
     </article>
+    </>
   );
 };
 

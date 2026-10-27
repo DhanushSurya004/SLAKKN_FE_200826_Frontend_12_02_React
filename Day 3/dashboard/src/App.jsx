@@ -7,6 +7,7 @@ import "./App.css";
 
 const App = () => {
   return (
+    <>
     <main className="dashboard">
       <Sidebar />
       <div className="dashboard-main">
@@ -16,6 +17,7 @@ const App = () => {
         <Footer />
       </div>
     </main>
+    </>
   );
 };
 
