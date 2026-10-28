@@ -10,9 +10,9 @@ import './App.css'
 const App = () => {
   return (
     <>
-      <div className="app-shell">
+      <div className="min-h-screen bg-[#f4f6fb] font-[Arial,Helvetica,sans-serif] text-[#172033]">
         <NavBar />
-        <main className="page-content">
+        <main className="mx-auto my-6 w-[min(760px,calc(100%-32px))] min-[521px]:my-12">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/number-rendering" element={<NumberRendering />} />
