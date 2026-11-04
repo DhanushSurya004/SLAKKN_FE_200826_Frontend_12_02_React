@@ -25,6 +25,17 @@ const Local = () => {
 
   const handleClick = (event) => {
     event.preventDefault()
+
+    if (!name.trim() || !email.trim() || !role.trim()) {
+      alert("Please enter your name, email, and role")
+      return
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      alert("Please enter a valid email")
+      return
+    }
+
     const updated = [...people, { id: Date.now(), name, email, role }]
     localStorage.setItem("userdatas", JSON.stringify(updated))
     setPeople(updated)
