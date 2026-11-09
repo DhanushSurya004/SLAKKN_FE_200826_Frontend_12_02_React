@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+.shine-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.shine-card::after {
+  position: absolute;
+  z-index: 5;
+  top: -50%;
+  left: -80%;
+  width: 45%;
+  height: 200%;
+  content: '';
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 15%, rgb(255 255 255 / 8%) 35%, rgb(255 255 255 / 75%) 50%, rgb(255 255 255 / 8%) 65%, transparent 85%);
+  transform: skewX(-20deg);
+}
+
+.shine-card:hover::after {
+  animation: card-shine 800ms ease-out;
+}
+
+@keyframes card-shine {
+  from { left: -80%; }
+  to { left: 140%; }
+}
